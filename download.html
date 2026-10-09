@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>콜이요 앱 다운로드</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="콜이요 앱 다운로드">
+<meta property="og:description" content="카톡 콜방에서 원하는 지역 콜만 골라 팝업으로 알려드려요. 눌러서 설치하세요!">
+<meta property="og:image" content="https://boksil2183-stack.github.io/callyo/thumb_download.png">
+<meta property="og:url" content="https://boksil2183-stack.github.io/callyo/download.html">
+<script>
+  // 카톡 안에서 열리면 기본 브라우저(크롬 등)로 다시 열기
+  if (navigator.userAgent.indexOf("KAKAOTALK") > -1) {
+    location.href = "kakaotalk://web/openExternal?url=" + encodeURIComponent(location.href);
+  }
+</script>
+<style>
+  body { font-family: sans-serif; text-align: center; padding: 40px 20px; background: #f5f8fb; color: #222; }
+  h1 { font-size: 26px; margin-bottom: 8px; }
+  p { font-size: 16px; line-height: 1.6; color: #555; }
+  .btn { display: block; max-width: 320px; margin: 28px auto 14px; background: #00A8FF; color: #fff;
+         font-size: 20px; font-weight: bold; padding: 18px 0; border-radius: 14px; text-decoration: none; }
+  .sub { display: block; max-width: 320px; margin: 0 auto; background: #fff; color: #00A8FF;
+         border: 2px solid #00A8FF; font-size: 17px; padding: 14px 0; border-radius: 14px; text-decoration: none; }
+  .box { max-width: 340px; margin: 30px auto 0; background: #fff; border-radius: 12px; padding: 16px; text-align: left; font-size: 15px; line-height: 1.7; }
+</style>
+</head>
+<body>
+  <h1>콜이요</h1>
+  <p>카톡 콜방에서 원하는 지역 콜만<br>골라서 팝업으로 알려드려요.</p>
+
+  <a class="btn" href="https://github.com/boksil2183-stack/callyo/releases/latest/download/call.apk">📥 앱 다운로드</a>
+  <a class="sub" href="install.html">설치 방법 보기</a>
+
+  <div class="box">
+    <b>설치 순서</b><br>
+    1. 위 <b>앱 다운로드</b> 버튼을 눌러요.<br>
+    2. 다운로드가 끝나면 <b>열기</b>를 눌러요.<br>
+    3. "출처를 알 수 없는 앱" 창이 뜨면 <b>허용</b>해요.<br>
+    4. 보호 경고가 나오면 <b>무시하고 설치하기</b>를 눌러요.<br><br>
+    ※ 이미 콜이요가 설치되어 있다면 지우지 말고 그냥 위에 설치하세요.
+  </div>
+</body>
+</html>
